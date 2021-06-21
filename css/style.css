@@ -12,6 +12,7 @@ body, html {
 .leftpane {
     width: 20%;
     height: 100%;
+    margin: 0%;
     position: absolute;
     float: left;
     background-color: rgb(237, 195, 190);
@@ -43,10 +44,11 @@ p.articulos {
 
 .encabezado {
     width: 80%;
-    height: 100px;
+    height: 135px;
     border-collapse: collapse;
     float: right;
     background-image: url(../img/fondo\ encabezado.jpg);
+    display: inline-block;
 }
 .cuerpo {
     width: 78%;
